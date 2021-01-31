@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<student student_id="1">
+    <firstName>Mostafa</firstName>
+    <lastName>Yehya</lastName>
+    <addresses>
+        <address>
+            <country>Egypt</country>
+            <city>Cairo</city>
+        </address>
+        <address>
+            <country>Saudi</country>
+            <city>Jedda</city>
+        </address>
+        <address>
+            <country>Russia</country>
+            <city>Moscow</city>
+        </address>
+    </addresses>
+</student>
