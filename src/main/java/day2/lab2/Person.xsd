@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://jets.iti.gov.eg"
+           xmlns="http://jets.iti.gov.eg"
+           elementFormDefault="qualified">
+
+    <xs:element name="Person" type="PersonType"/>
+
+    <xs:complexType name="PersonType">
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="Address" type="AddressType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="AddressType">
+        <xs:sequence>
+            <xs:element name="Number" type="xs:unsignedInt"/>
+            <xs:element name="Street" type="xs:string"/>
+
+        </xs:sequence>
+    </xs:complexType>
+
+
+</xs:schema>

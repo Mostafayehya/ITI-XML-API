@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"  ?>
+<Person xmlns="http://jets.iti.gov.eg">
+    <Name>Mostafa Yehya</Name>
+
+    <Address>
+        <Number>4</Number>
+        <Street>Octobr</Street>
+    </Address>
+
+    <Address>
+        <Number>10</Number>
+        <Street>Zagazig</Street>
+    </Address>
+</Person>
